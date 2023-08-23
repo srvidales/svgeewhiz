@@ -1,0 +1,30 @@
+{
+  "name": "svgeewhiz",
+  "version": "1.0.0",
+  "description": "JavaScript's Playful Logo Sorcery School",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srvidales/svgeewhiz.git"
+  },
+  "keywords": [
+    "SVG",
+    "Logo",
+    "Maker"
+  ],
+  "author": "Sergio R. Vidales Perez <srvidales@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srvidales/svgeewhiz/issues"
+  },
+  "homepage": "https://github.com/srvidales/svgeewhiz#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.6.3"
+  }
+}
