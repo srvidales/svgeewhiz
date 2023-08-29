@@ -17,14 +17,11 @@ class App {
     ]
 
     getUserInput() {
-        function testing() {
-            console.log(this.answers);
-        }
 
         inquirer.prompt(this.questions)
             .then((answers) => {
                 this.answers = {...answers}
-                testing();
+                console.log(this.answers);
             })
     }
 
