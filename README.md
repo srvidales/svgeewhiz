@@ -1,23 +1,60 @@
-AS a freelance web developer
-I WANT to generate a simple logo for my projects
-SO THAT I don't have to pay a graphic designer
+# svg-whiz
+  
+## Description
+CLI application that allows you to generate SVG files based on one of 3 shapes, circle triangle and square. You can also add text and select the color for both shape and text. This is a very simple challenge to showcase OOP. Namely how the 3 shapes extend the base Shape class. It also makes use of Jest in order to provide a way to test the app.
 
-GIVEN a command-line application that accepts user input
+This is the solution to the UC Berkeley Extensions coding boot camp module 10 challenge.
+The challenge itself can be
+found [here](https://bootcampspot.instructure.com/courses/3826/assignments/57104?module_item_id=1006248)
+and [here](https://git.bootcampcontent.com/University-of-California---Berkeley/UCB-VIRT-FSF-PT-06-2023-U-LOLC/-/tree/main/10-OOP/02-Challenge).
 
-WHEN I am prompted for text
-THEN I can enter up to three characters
+## Table of Contents
+- [Video](#video)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-WHEN I am prompted for the text color
-THEN I can enter a color keyword (OR a hexadecimal number)
+## Video
+You can view the video by clicking on the [link](https://drive.google.com/file/d/1wjgVJ5zmdO9-fDV3gxsQ1B2nyzhSEwaZ/view?usp=sharing)
 
-WHEN I am prompted for a shape
-THEN I am presented with a list of shapes to choose from: circle, triangle, and square
+## Installation
+A current version of node is required to run this application. Make sure you [download](https://nodejs.org/en/download) and install depending on your operating system.
 
-WHEN I am prompted for the shape's color
-THEN I can enter a color keyword (OR a hexadecimal number)
+## Usage
+Start by cloning the following repo:
+```bash
+git clone git@github.com:srvidales/svgeewhiz.git
+```
 
-WHEN I have entered input for all the prompts
-THEN an SVG file is created named `logo.svg`
-AND the output text "Generated logo.svg" is printed in the command line
-WHEN I open the `logo.svg` file in a browser
-THEN I am shown a 300x200 pixel image that matches the criteria I entered
+CD into the directory:
+```bash
+cd svgeewhiz
+```
+
+Then go ahead and install the dependencies:
+```bash
+npm install
+```
+
+And finally run the application:
+```bash
+npm start
+```
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Contributing
+- [Sergio Vidales Perez](mailto://srvidales@gmail.com)
+
+## Tests
+In order to run the tests execute the following:
+```bash
+npm test
+```
+
+## Questions
+Feel free to reach out with additional questions here: [Contact Me](mailto://srvidales@gmail.com) or here [GitHub](https://github.com/srvidales).
