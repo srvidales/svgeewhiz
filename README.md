@@ -18,7 +18,7 @@ and [here](https://git.bootcampcontent.com/University-of-California---Berkeley/U
 - [Questions](#questions)
 
 ## Video
-You can view the video by clicking on the [link](https://drive.google.com/file/d/1wjgVJ5zmdO9-fDV3gxsQ1B2nyzhSEwaZ/view?usp=sharing)
+You can view the video by clicking on the [link](https://drive.google.com/file/d/1b1w0YHOAN4w3szDaVaPOBHrUlu7xnBcU/view?usp=sharing)
 
 ## Installation
 A current version of node is required to run this application. Make sure you [download](https://nodejs.org/en/download) and install depending on your operating system.
