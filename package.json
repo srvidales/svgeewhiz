@@ -2,7 +2,7 @@
   "name": "svgeewhiz",
   "version": "1.0.0",
   "description": "JavaScript's Playful Logo Sorcery School",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest"
   },
